@@ -14,16 +14,7 @@ return {
       require("mason-lspconfig").setup({
         ensure_installed = {
           "pylsp",
-          "html",
-          "cssls",
-          "tailwindcss",
-          "emmet_language_server",
           "bashls",
-          "clangd",
-          "zls",
-          "rust_analyzer",
-          "jsonls",
-          "yamlls",
           "marksman",
           "lua_ls",
         },
