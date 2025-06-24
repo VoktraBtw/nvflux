@@ -1,0 +1,147 @@
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: var(--color-text-primary);
+  /*background: #080808;*/
+  background: white;
+  font-family: "MyCustomFont", "Iosevka Nerd Font", "Iosevka Term", "Iosevka", 
+               "JetBrains Mono", "Fira Code", monospace !important;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #6a737d; 
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #72749b;
+  font-weight: 600;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #005cc5; 
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d4bd98;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #6f42c1;
+  font-weight: 600; 
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #0366d6; 
+  font-weight: 600;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #22863a; 
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #032f62; 
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #e36209; 
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #005cc5; 
+}
+
+.hljs-meta {
+  color: #6a737d; 
+  font-weight: 600;
+}
+
+.hljs-deletion {
+  background: #ffeef0; 
+  color: #cb2431;
+}
+
+.hljs-addition {
+  background: #f0fff4;
+  color: #22863a;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: 600; 
+}
+
+.markdown-body .hljs {
+  border-radius: 6px;
+  border: 1px solid var(--color-border-secondary);
+}
+
+.markdown-body code:not(.hljs) {
+  font-family: "MyCustomFont", "Iosevka Nerd Font", "Iosevka Term", "Iosevka", 
+               "JetBrains Mono", "Fira Code", monospace !important;
+  color: #e36209;
+  background-color: #f6f8fa;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+
+/*
+[data-theme="dark"] .hljs {
+  background: #0d1117;
+  color: #c9d1d9;
+}
+
+[data-theme="dark"] .hljs-comment,
+[data-theme="dark"] .hljs-quote {
+  color: #8b949e;
+}
+
+[data-theme="dark"] .hljs-keyword,
+[data-theme="dark"] .hljs-selector-tag {
+  color: #ff7b72;
+}
+
+[data-theme="dark"] .hljs-string,
+[data-theme="dark"] .hljs-doctag {
+  color: #a5d6ff;
+}
+
+[data-theme="dark"] .hljs-number,
+[data-theme="dark"] .hljs-literal {
+  color: #79c0ff;
+}
+
+[data-theme="dark"] .markdown-body code:not(.hljs) {
+  background-color: #161b22;
+  color: #ffa657;
+}
+*/
