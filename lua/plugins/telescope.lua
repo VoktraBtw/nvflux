@@ -57,9 +57,5 @@ return {
       vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
     end,
   },
-  {
-    "jvgrootveld/telescope-zoxide",
-    config = function() end,
-  },
 }
 

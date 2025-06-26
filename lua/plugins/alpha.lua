@@ -497,7 +497,7 @@ return { "goolord/alpha-nvim",
     dashboard.section.buttons.val = {
       -- dashboard.button("e", "  > New file", ":ene <BAR> startinsert <CR>"),
       dashboard.button("b", "󰱼  > Browse files", ":Yazi<CR>"),
-      dashboard.button("z", "  > Browse Directories", ":Telescope zoxide list<CR>"),
+      dashboard.button("t", "  > Open Todo List", ":Td<CR>"),
       dashboard.button("f", "󰈞  > Find file", ":Telescope find_files<CR>"),
       dashboard.button("r", "  > Recent", ":Telescope oldfiles<CR>"),
     }
