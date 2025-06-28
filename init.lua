@@ -18,4 +18,3 @@ vim.cmd("colorscheme " .. colorscheme)
 require('config.options')
 require('config.keymaps')
 require('config.lazy')
-

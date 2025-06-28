@@ -130,11 +130,11 @@ return {
   --     luasnip.add_snippets("tex", require("snippets.latex"))
   --     luasnip.add_snippets("zig", require("snippets.zig"))
   --     -- Set up nvim-cmp.
-  --     local cmp_autopairs = require("nvim-autopairs.completion.cmp")
-  --     local cmp = require("cmp")
+      local cmp_autopairs = require("nvim-autopairs.completion.cmp")
+      local cmp = require("cmp")
   --     require("luasnip.loaders.from_vscode").lazy_load()
   --
-  --     cmp.event:on("confirm_done", cmp_autopairs.on_confirm_done())
+      cmp.event:on("confirm_done", cmp_autopairs.on_confirm_done())
   --
   --     cmp.setup({
   --       preselect = cmp.PreselectMode.None,
